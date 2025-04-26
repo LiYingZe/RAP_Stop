@@ -17,7 +17,7 @@ You can also apply this approach to any other top-k or ranking task you wish! �
 - **🔍 Hallucination Debugging**: Employs Monte Carlo Tree Search (MCTS) to identify and correct structural inconsistencies before ranking.
 - **🎯 Credibility-Aware Ranking**: A learnable attention mechanism dynamically weights evidence, reducing hallucinated noise.
 - **⚡ Enhanced Accuracy**: Achieves over 100% improvement compared to non-learning baselines (PageRank, nDegree, Copeland).
-- **⏱️ Cost & Time Efficiency**: Delivers ≥90% human-level accuracy at under 0.1% of the time and cost of crowd-sourced labeling.
+- **⏱️ Cost & Time Efficiency**: Delivers accurate Top-k evaluation at under 0.1% of the time and cost of crowd-sourced labeling.
 - **💰 Budget-Friendly LLMs**: Supports free or low-cost models (<$0.14 per million tokens), with seamless integration for premium models.
 
 
@@ -97,7 +97,6 @@ This step resolves hallucination conflicts and outputs `evidenceMatrix_debug.npy
 
 Using **RAP-STOP**, we demonstrate:
 - **🔥 Over 100% accuracy improvement** compared to non-learning baselines.
-- **💪 ≥90% human-level performance** at <0.1% of time and cost.
 - **⚙️ Seamless integration with existing LLMs** at minimal expense.
 
 ------
